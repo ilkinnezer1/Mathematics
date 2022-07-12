@@ -21,7 +21,7 @@ float standartDeviation(float data[], int population){
 }
 int main(){
     int i;
-    float data[10];
+    float data[100];
 
     int population = sizeof(data) / sizeof(data[0]);
     cout << "Enter elements: ";

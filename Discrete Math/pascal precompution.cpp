@@ -1,10 +1,8 @@
 #include <iostream>
-
 // BINOMINAL COEFFICENT (PASCAL TRIANGLE)
 // matrix with value 0
 #define CHOOSEN_SIZE 100
-
-class PascalPrecompution{
+class PascalPrecomputation{
 private:
     int choose[CHOOSEN_SIZE][CHOOSEN_SIZE];
 public:
@@ -29,7 +27,7 @@ public:
 };
 
 int main(){
-        PascalPrecompution p;
+        PascalPrecomputation p;
         p.init_choose();
         std::cout << p.getElementIndex(8, 3);
     return  0;
